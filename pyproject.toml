@@ -1,0 +1,12 @@
+[project]
+name = "llm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+   "langchain>=0.3.0",
+   "langchain-openai>=0.2.0",
+   "openai>=1.0.0", # optional; keep if you use OpenAI SDK directly
+   "python-dotenv>=1.1.1",
+]

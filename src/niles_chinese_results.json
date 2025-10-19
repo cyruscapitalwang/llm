@@ -1,0 +1,70 @@
+{
+  "query": "Chinese restaurants in Niles, Illinois",
+  "results": [
+    {
+      "name": "China Star",
+      "address": "8105 N Milwaukee Ave, Niles, IL 60714",
+      "phone": "(847) 966-1145",
+      "url": "https://www.chinastarniles.com/",
+      "notes": "A cornerstone in the Niles community, offering modern interpretations of classic Chinese dishes with high-quality, fresh ingredients.",
+      "sources": [
+        {
+          "title": "China Star Restaurant",
+          "url": "https://www.restaurantji.com/il/niles/china-star-restaurant-/"
+        }
+      ]
+    },
+    {
+      "name": "Bowl of Fortune Express",
+      "address": "8901 N Milwaukee Ave #110, Niles, IL 60714",
+      "phone": "(312) 731-2108",
+      "url": "https://www.bowloffortuneexpress.com/",
+      "notes": "Offers a whirlwind of flavors where Chinese favorites meet swift delivery and takeaway, delighting in vibrant dishes.",
+      "sources": [
+        {
+          "title": "Order Authentic Chinese Online | Bowl of Fortune Express",
+          "url": "https://www.bowloffortuneexpress.com/"
+        }
+      ]
+    },
+    {
+      "name": "Panda Express",
+      "address": "9347 N Milwaukee Ave, Niles, IL 60714",
+      "phone": "(847) 696-6320",
+      "url": "https://www.pandaexpress.com/locations/il/niles/2927",
+      "notes": "A popular fast-casual chain known for American-Chinese cuisine, offering dishes like Orange Chicken and Beijing Beef.",
+      "sources": [
+        {
+          "title": "Panda Express at Milwaukee & Maryland (Golf Mill Relocation) PX",
+          "url": "https://www.pandaexpress.com/locations/il/niles/2927"
+        }
+      ]
+    },
+    {
+      "name": "Twin Dragon Restaurant",
+      "address": "9046 W Golf Rd, Niles, IL 60714",
+      "phone": "(847) 803-6777",
+      "url": "https://local.ilacfiyati.org/e/twin-dragon-restaurant",
+      "notes": "Offers Korean-style Chinese cuisine with delicious and large portions, known for fast service.",
+      "sources": [
+        {
+          "title": "Twin Dragon Restaurant",
+          "url": "https://local.ilacfiyati.org/e/twin-dragon-restaurant"
+        }
+      ]
+    },
+    {
+      "name": "168 Chinese Restaurant",
+      "address": "8922 1/2 N Greenwood, Niles, IL 60714",
+      "phone": "Not available",
+      "url": "Not available",
+      "notes": "A local Chinese restaurant in Niles, Illinois.",
+      "sources": [
+        {
+          "title": "Chinese Inn Restaurant Has Closed",
+          "url": "https://patch.com/illinois/niles/chinese-inn-restaurant-has-closed"
+        }
+      ]
+    }
+  ]
+}
