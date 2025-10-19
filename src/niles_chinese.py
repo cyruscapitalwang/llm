@@ -17,34 +17,52 @@ from dotenv import load_dotenv
 load_dotenv()  # loads variables from .env into os.environ
 
 from openai import OpenAI
+
+print(os.getenv("OPENAI_API_KEY"))
+
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # 2) Query
 QUESTION = "List 5 Chinese restaurants in Niles, Illinois"
 
+# We'll ask the model to:
+# - use web_search
+# - output strict JSON so we can parse it reliably
+# - include citations for each restaurant
 system_instructions = """
-You are a precise local guide.
-Return exactly 5 Chinese restaurants in Niles, Illinois.
-For each restaurant, include name, address, phone (if available), URL, one-sentence note, and 1–3 sources.
-Output STRICT JSON only as:
+You are a precise, helpful local guide.
+Task: Return exactly 5 Chinese restaurants located in Niles, Illinois (the municipality itself, not just 'near').
+For each restaurant, verify details from reputable sources (official site, Google, Yelp, TripAdvisor, etc.).
+Prefer places that appear to be currently operating.
+
+Output STRICT JSON (and nothing else) as:
 {
-  "query": "...",
-  "results": [
+  "query":"<the original query>",
+  "results":[
     {
-      "name": "",
-      "address": "",
-      "phone": "",
-      "url": "",
-      "notes": "",
-      "sources": [{"title": "", "url": ""}]
+      "name":"<string>",
+      "address":"<string>",
+      "phone":"<string or empty>",
+      "url":"<official or best listing URL>",
+      "rating": "<string>",
+      "notes":"<1 short sentence>",
+      "sources":[{"title":"<source title>","url":"<https://...>"}]
     }
   ]
 }
+
+Rules:
+- Exactly 5 items in "results".
+- Niles, IL addresses only (cross-check city).
+- If phone or official URL is unknown, leave empty string.
+- De-duplicate businesses with multiple listings.
+- Keep notes concise (max ~18 words).
+- Have at least 100 customer ratings, with average score at least 4.5
 """
 
 # 3) Call Responses API — FIX: use "input_text" instead of "text"
 response = client.responses.create(
-    model="gpt-4.1-mini",  # or gpt-4o / gpt-5 if available
+    model="gpt-5",  # or gpt-4o / gpt-5 if available
     input=[
         {
             "role": "system",
@@ -85,6 +103,8 @@ for i, r in enumerate(data.get("results", []), 1):
         print(f"   Phone: {r['phone']}")
     if r.get("url"):
         print(f"   URL: {r['url']}")
+    if r.get("rating"):
+        print(f"   Rating: {r['rating']}")
     if r.get("notes"):
         print(f"   Note: {r['notes']}")
     for s in r.get("sources", []):

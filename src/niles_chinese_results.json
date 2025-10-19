@@ -1,68 +1,101 @@
 {
-  "query": "Chinese restaurants in Niles, Illinois",
+  "query": "List 5 Chinese restaurants in Niles, Illinois",
   "results": [
-    {
-      "name": "China Star",
-      "address": "8105 N Milwaukee Ave, Niles, IL 60714",
-      "phone": "(847) 966-1145",
-      "url": "https://www.chinastarniles.com/",
-      "notes": "A cornerstone in the Niles community, offering modern interpretations of classic Chinese dishes with high-quality, fresh ingredients.",
-      "sources": [
-        {
-          "title": "China Star Restaurant",
-          "url": "https://www.restaurantji.com/il/niles/china-star-restaurant-/"
-        }
-      ]
-    },
-    {
-      "name": "Bowl of Fortune Express",
-      "address": "8901 N Milwaukee Ave #110, Niles, IL 60714",
-      "phone": "(312) 731-2108",
-      "url": "https://www.bowloffortuneexpress.com/",
-      "notes": "Offers a whirlwind of flavors where Chinese favorites meet swift delivery and takeaway, delighting in vibrant dishes.",
-      "sources": [
-        {
-          "title": "Order Authentic Chinese Online | Bowl of Fortune Express",
-          "url": "https://www.bowloffortuneexpress.com/"
-        }
-      ]
-    },
-    {
-      "name": "Panda Express",
-      "address": "9347 N Milwaukee Ave, Niles, IL 60714",
-      "phone": "(847) 696-6320",
-      "url": "https://www.pandaexpress.com/locations/il/niles/2927",
-      "notes": "A popular fast-casual chain known for American-Chinese cuisine, offering dishes like Orange Chicken and Beijing Beef.",
-      "sources": [
-        {
-          "title": "Panda Express at Milwaukee & Maryland (Golf Mill Relocation) PX",
-          "url": "https://www.pandaexpress.com/locations/il/niles/2927"
-        }
-      ]
-    },
     {
       "name": "Twin Dragon Restaurant",
       "address": "9046 W Golf Rd, Niles, IL 60714",
       "phone": "(847) 803-6777",
-      "url": "https://local.ilacfiyati.org/e/twin-dragon-restaurant",
-      "notes": "Offers Korean-style Chinese cuisine with delicious and large portions, known for fast service.",
+      "url": "https://www.ubereats.com/store/twin-dragon-restaurant/jMwkP5UBSvSHQNBv9zK2Bw",
+      "rating": "4.5 (400+ reviews, Uber Eats)",
+      "notes": "Korean‑Chinese classics like jjajangmyeon and jjamppong.",
       "sources": [
         {
-          "title": "Twin Dragon Restaurant",
-          "url": "https://local.ilacfiyati.org/e/twin-dragon-restaurant"
+          "title": "Twin Dragon on Uber Eats",
+          "url": "https://www.ubereats.com/store/twin-dragon-restaurant/jMwkP5UBSvSHQNBv9zK2Bw"
+        },
+        {
+          "title": "Twin Dragon listing (Restaurantji)",
+          "url": "https://www.restaurantji.com/il/niles/twin-dragon-restaurant-/"
         }
       ]
     },
     {
-      "name": "168 Chinese Restaurant",
-      "address": "8922 1/2 N Greenwood, Niles, IL 60714",
-      "phone": "Not available",
-      "url": "Not available",
-      "notes": "A local Chinese restaurant in Niles, Illinois.",
+      "name": "Lucky Wok",
+      "address": "7878 N Milwaukee Ave, Niles, IL 60714",
+      "phone": "(847) 966-9798",
+      "url": "http://www.luckywokniles.com",
+      "rating": "4.7 (400+ reviews, DoorDash)",
+      "notes": "Takeout-focused Chinese‑American standards; fast and consistent.",
       "sources": [
         {
-          "title": "Chinese Inn Restaurant Has Closed",
-          "url": "https://patch.com/illinois/niles/chinese-inn-restaurant-has-closed"
+          "title": "DoorDash Chinese in Niles (shows Lucky Wok 4.7/400+)",
+          "url": "https://www.doordash.com/food-delivery/niles-il-restaurants/chinese-food/"
+        },
+        {
+          "title": "Lucky Wok listing (Restaurantji)",
+          "url": "https://www.restaurantji.com/il/niles/lucky-wok-/"
+        },
+        {
+          "title": "BBB profile (business details)",
+          "url": "https://www.bbb.org/us/il/niles/profile/chinese-food/lucky-wok-restaurant-0654-1000044262"
+        }
+      ]
+    },
+    {
+      "name": "Panda Express (Milwaukee & Maryland)",
+      "address": "9347 N Milwaukee Ave, Niles, IL 60714",
+      "phone": "(847) 696-6320",
+      "url": "https://www.pandaexpress.com/locations/il/niles/2927",
+      "rating": "4.5 (1,500+ reviews, Uber Eats)",
+      "notes": "Chain spot for quick American‑Chinese favorites.",
+      "sources": [
+        {
+          "title": "Panda Express location page (Niles)",
+          "url": "https://www.pandaexpress.com/locations/il/niles/2927"
+        },
+        {
+          "title": "Panda Express on Uber Eats (Niles)",
+          "url": "https://www.ubereats.com/store/panda-express-9347-n-milwaukee-ave/76QsBuLQR7Ofzr53IBwCwA"
+        }
+      ]
+    },
+    {
+      "name": "China Star Restaurant",
+      "address": "8105 N Milwaukee Ave, Niles, IL 60714",
+      "phone": "(847) 966-1145",
+      "url": "https://www.chinastarniles.com/",
+      "rating": "4.2 (90+ reviews, Restaurantji)",
+      "notes": "Neighborhood staple for classic takeout dishes.",
+      "sources": [
+        {
+          "title": "China Star official site",
+          "url": "https://www.chinastarniles.com/"
+        },
+        {
+          "title": "China Star listing (Restaurantji)",
+          "url": "https://www.restaurantji.com/il/niles/china-star-restaurant-/"
+        },
+        {
+          "title": "MapQuest listing (address/phone)",
+          "url": "https://www.mapquest.com/us/illinois/china-star-7800832"
+        }
+      ]
+    },
+    {
+      "name": "Lai Lai",
+      "address": "8901 N Milwaukee Ave Ste 112, Niles, IL 60714",
+      "phone": "(847) 965-3232",
+      "url": "https://www.restaurantji.com/il/niles/lai-lai-/",
+      "rating": "4.5 (40+ reviews, Restaurantji)",
+      "notes": "Food‑court Korean‑Chinese; noted for jajangmyeon.",
+      "sources": [
+        {
+          "title": "Lai Lai listing (Restaurantji)",
+          "url": "https://www.restaurantji.com/il/niles/lai-lai-/"
+        },
+        {
+          "title": "Chamber of Commerce listing (address/phone)",
+          "url": "https://www.chamberofcommerce.com/business-directory/illinois/niles/miscellaneous/2336148-lai-lai"
         }
       ]
     }
